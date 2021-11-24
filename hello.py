@@ -1,4 +1,5 @@
-def town():
-    print("Hello from the function town !")
+def showWelcome(welcomeTo:str="town"):
+    print("welcome to function " + welcomeTo )
 
-town()
+where = "town" 
+showWelcome(where)
