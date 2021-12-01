@@ -1,14 +1,10 @@
-num_1 = 0
-num_2 = 1
+def fibonacci(vorigevorige = 0,vorige = 1,max = 20):
+    for math in range(max):
+        print(vorigevorige)
+        volgende = vorigevorige + vorige
+        vorigevorige = vorige
+        vorige = volgende
 
-def fibonacci(num_1,num_2):
-    outcome = num_1 + num_2
-    return outcome
+fibonacci(0,1,20)
 
-    
-for math in range(8):
-    num_x = (fibonacci(num_1,num_2))
-    num_1 = num_2
-    num_2 = num_x
-    print(fibonacci(num_1,num_2))
-
+# list = [0,1,1,2,3,5,8,13,21] 
